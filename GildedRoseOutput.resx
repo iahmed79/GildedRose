@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllItemsOutput" xml:space="preserve">
+    <value>OMGHAI!
+-------- day 0 --------
+name, sellIn, quality
+Butter, 10, 40
+Aged Brie, 25, 10
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, 15, 40
+-------- day 1 --------
+name, sellIn, quality
+Butter, 9, 39
+Aged Brie, 24, 11
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, 14, 41
+-------- day 2 --------
+name, sellIn, quality
+Butter, 8, 38
+Aged Brie, 23, 12
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, 13, 42
+-------- day 3 --------
+name, sellIn, quality
+Butter, 7, 37
+Aged Brie, 22, 13
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, 12, 43
+-------- day 4 --------
+name, sellIn, quality
+Butter, 6, 36
+Aged Brie, 21, 14
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, 11, 44
+-------- day 5 --------
+name, sellIn, quality
+Butter, 5, 35
+Aged Brie, 20, 15
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, 10, 45
+-------- day 6 --------
+name, sellIn, quality
+Butter, 4, 34
+Aged Brie, 19, 16
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, 9, 47
+-------- day 7 --------
+name, sellIn, quality
+Butter, 3, 33
+Aged Brie, 18, 17
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, 8, 49
+-------- day 8 --------
+name, sellIn, quality
+Butter, 2, 32
+Aged Brie, 17, 18
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, 7, 50
+-------- day 9 --------
+name, sellIn, quality
+Butter, 1, 31
+Aged Brie, 16, 19
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, 6, 50
+-------- day 10 --------
+name, sellIn, quality
+Butter, 0, 30
+Aged Brie, 15, 20
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, 5, 50
+-------- day 11 --------
+name, sellIn, quality
+Butter, -1, 28
+Aged Brie, 14, 21
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, 4, 50
+-------- day 12 --------
+name, sellIn, quality
+Butter, -2, 26
+Aged Brie, 13, 22
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, 3, 50
+-------- day 13 --------
+name, sellIn, quality
+Butter, -3, 24
+Aged Brie, 12, 23
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, 2, 50
+-------- day 14 --------
+name, sellIn, quality
+Butter, -4, 22
+Aged Brie, 11, 24
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, 1, 50
+-------- day 15 --------
+name, sellIn, quality
+Butter, -5, 20
+Aged Brie, 10, 25
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, 0, 50
+-------- day 16 --------
+name, sellIn, quality
+Butter, -6, 18
+Aged Brie, 9, 26
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, -1, 0
+-------- day 17 --------
+name, sellIn, quality
+Butter, -7, 16
+Aged Brie, 8, 27
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, -2, 0
+-------- day 18 --------
+name, sellIn, quality
+Butter, -8, 14
+Aged Brie, 7, 28
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, -3, 0
+-------- day 19 --------
+name, sellIn, quality
+Butter, -9, 12
+Aged Brie, 6, 29
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, -4, 0
+-------- day 20 --------
+name, sellIn, quality
+Butter, -10, 10
+Aged Brie, 5, 30
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, -5, 0
+-------- day 21 --------
+name, sellIn, quality
+Butter, -11, 8
+Aged Brie, 4, 31
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, -6, 0
+-------- day 22 --------
+name, sellIn, quality
+Butter, -12, 6
+Aged Brie, 3, 32
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, -7, 0
+-------- day 23 --------
+name, sellIn, quality
+Butter, -13, 4
+Aged Brie, 2, 33
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, -8, 0
+-------- day 24 --------
+name, sellIn, quality
+Butter, -14, 2
+Aged Brie, 1, 34
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, -9, 0
+-------- day 25 --------
+name, sellIn, quality
+Butter, -15, 0
+Aged Brie, 0, 35
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, -10, 0
+-------- day 26 --------
+name, sellIn, quality
+Butter, -16, 0
+Aged Brie, -1, 37
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, -11, 0
+-------- day 27 --------
+name, sellIn, quality
+Butter, -17, 0
+Aged Brie, -2, 39
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, -12, 0
+-------- day 28 --------
+name, sellIn, quality
+Butter, -18, 0
+Aged Brie, -3, 41
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, -13, 0
+-------- day 29 --------
+name, sellIn, quality
+Butter, -19, 0
+Aged Brie, -4, 43
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, -14, 0
+-------- day 30 --------
+name, sellIn, quality
+Butter, -20, 0
+Aged Brie, -5, 45
+Sulfuras, Hand of Ragnaros, 25, 40
+Backstage passes to a TAFKAL80ETC concert, -15, 0
+</value>
+  </data>
+</root>
